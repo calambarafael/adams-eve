@@ -1,0 +1,43 @@
+.page-header .content-center {
+	margin-top: 150px
+}
+
+.svg {
+	display: block
+	margin: auto
+}
+
+.feedback.section img {
+	max-width: 15%
+}
+
+.footer nav>ul>li {
+	text-align: left
+}
+
+@font-face {
+    font-family: 'Metropolis'
+    src: url('../fonts/Metropolis-Regular.woff2') format('woff2'), url('../fonts/Metropolis-Regular.woff') format('woff')
+}
+
+@font-face {
+    font-family: 'Metropolis Light'
+    src: url('../fonts/Metropolis-Light.woff2') format('woff2'), url('../fonts/Metropolis-Light.woff') format('woff')
+}
+
+@font-face {
+    font-family: 'Metropolis Bold'
+    src: url('../fonts/Metropolis-Bold.woff2') format('woff2'), url('../fonts/Metropolis-Bold.woff') format('woff')
+}
+
+.bodi {
+    font-family: 'Bodoni Moda', serif
+}
+
+.metl {
+    font-family: 'Metropolis Light', Fallback, sans-serif
+}
+
+.metb {
+    font-family: 'Metropolis Bold', Fallback, sans-serif
+}
