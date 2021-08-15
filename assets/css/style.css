@@ -1,43 +1,126 @@
+@font-face {
+    font-family: 'Metropolis';
+    src: url('../fonts/Metropolis-Regular.woff2') format('woff2'), url('../fonts/Metropolis-Regular.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Metropolis Light';
+    src: url('../fonts/Metropolis-Light.woff2') format('woff2'), url('../fonts/Metropolis-Light.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Metropolis Bold';
+    src: url('../fonts/Metropolis-Bold.woff2') format('woff2'), url('../fonts/Metropolis-Bold.woff') format('woff');
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
 .page-header .content-center {
-	margin-top: 150px
+	margin-top: 150px;
 }
 
 .svg {
-	display: block
-	margin: auto
+	display: block;
+	margin: auto;
 }
 
 .feedback.section img {
-	max-width: 15%
+	max-width: 15%;
+	padding: 0px;
 }
 
 .footer nav>ul>li {
-	text-align: left
+	text-align: left;
 }
 
-@font-face {
-    font-family: 'Metropolis'
-    src: url('../fonts/Metropolis-Regular.woff2') format('woff2'), url('../fonts/Metropolis-Regular.woff') format('woff')
+.section-dark-blue {
+	background-color: #133A40;
+	color: #F2E8DD;
 }
 
-@font-face {
-    font-family: 'Metropolis Light'
-    src: url('../fonts/Metropolis-Light.woff2') format('woff2'), url('../fonts/Metropolis-Light.woff') format('woff')
+.section-gray {
+	background-color: #F2E8DD;
 }
 
-@font-face {
-    font-family: 'Metropolis Bold'
-    src: url('../fonts/Metropolis-Bold.woff2') format('woff2'), url('../fonts/Metropolis-Bold.woff') format('woff')
+.section-nude {
+	background-color: #E7DDCF;
 }
 
-.bodi {
-    font-family: 'Bodoni Moda', serif
+.nav-link {
+    font-family: 'Metropolis Light', Fallback, sans-serif;
+	text-transform: none !important;
+	font-size: 16px !important;
+	color: #DFA659 !important;
 }
 
-.metl {
-    font-family: 'Metropolis Light', Fallback, sans-serif
+.title {
+    font-family: 'Bodoni Moda', serif;
+	color: #DFA659 !important;
 }
 
-.metb {
-    font-family: 'Metropolis Bold', Fallback, sans-serif
+.description {
+    font-family: 'Metropolis Light', Fallback, sans-serif;
+}
+
+.page-header .card .card-body, .quote.card .card-body {
+	background-color: #F2E8DD;
+}
+
+.page-header .card .card-text {
+    font-family: 'Metropolis Bold', Fallback, sans-serif;
+	color: #133A40;
+}
+
+.card .card-body {
+	background-color: #0E2B32;
+}
+
+.card .card-body .card-title {
+    font-family: 'Metropolis Bold', Fallback, sans-serif;
+	font-size: 14px;
+	color: #DFA659;
+}
+
+.card .card-text {
+    font-family: 'Metropolis Light', Fallback, sans-serif;
+	font-size: 14px;
+	color: #F2E8DD;
+}
+
+.display-1 {
+	font-weight: 600 !important;
+	color: #133A40 !important;
+}
+
+.quote.card .card-text {
+	color: #133A40;
+}
+
+.quote.card .card-body .card-title {
+	color: #133A40;
+}
+
+.quote.card .card-body .card-subtitle {
+    font-family: 'Metropolis Light', Fallback, sans-serif;
+	text-transform: none;
+	color: #DFA659 !important;
+}
+
+.footer nav>ul>li {
+    font-family: 'Metropolis Bold', Fallback, sans-serif;
+}
+
+.footer nav>ul a:not(.btn) {
+    font-family: 'Metropolis Light', Fallback, sans-serif;
+	font-weight: 500;
+	text-transform: none;
+    color: #F2E8DD !important;
+	opacity: 1;
+}
+
+.footer .copyright {
+    font-family: 'Metropolis Light', Fallback, sans-serif;
+    color: #F2E8DD;
 }

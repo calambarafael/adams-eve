@@ -11,7 +11,9 @@
   </title>
   <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no' name='viewport' />
   <!--     Fonts and icons     -->
-  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,wght@1,500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
   <!-- CSS Files -->
   <link href="./assets/css/bootstrap.min.css" rel="stylesheet" />
@@ -21,7 +23,7 @@
 
 <body>
   <!-- Navbar -->
-<nav class="navbar navbar-expand-lg fixed-top navbar-transparent section-nude pt-0" color-on-scroll="75">
+<nav class="navbar navbar-expand-lg fixed-top navbar-transparent section-gray pt-0" color-on-scroll="75">
     <div class="container">
         <a class="navbar-brand" href="#">
 			<img class="img-fluid" src="./assets/Logo.svg" />
@@ -37,13 +39,13 @@
                     <a class="nav-link" href="#">Menu</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Services</a>
+                    <a class="nav-link" href="#services">Services</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">About</a>
+                    <a class="nav-link" href="#about">About</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
+                    <a class="nav-link" href="#contact">Contact</a>
                 </li>
             </ul>
         </div>
@@ -59,21 +61,21 @@
 					<div class="col-12 ml-auto mr-auto">
 						<img class="img-fluid svg" src="./assets/Landing Page Illustration.svg" />
 					</div>
-					<div class="col-8 ml-auto mr-auto text-center">
+					<div class="col-10 ml-auto mr-auto text-center">
 						<h2 class="title">Epicurean Venues &amp; Events</h2>
 						<p class="description">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
 					</div>
 				</div>
 			</div>
 			<div class="col">
-				<div class="card">
+				<a class="card" href="#services">
 					<img class="card-img-top" src="./assets/MichaelAdams.jpeg" />
 					<div class="card-body">
 						<p class="card-text text-center">
-							SEE MORE<i class="fas fa-chevron-down ml-2"></i>
+							SEE MORE<i id="services" class="fas fa-chevron-down ml-2"></i>
 						</p>
 					</div>
-				</div>
+				</a>
 			</div>
 		</div>
       </div>
@@ -93,6 +95,7 @@
 					<img class="card-img-top" src="./assets/Services/Venues.jpg" />
 					<div class="card-body text-center">
 						<h4 class="card-title">VENUES</h4>
+						<br>
 						<p class="card-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy.</p>
 					</div>
 				</div>
@@ -102,6 +105,7 @@
 					<img class="card-img-top" src="./assets/Services/Events.jpg" />
 					<div class="card-body text-center">
 						<h4 class="card-title">EVENTS</h4>
+						<br>
 						<p class="card-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy.</p>
 					</div>
 				</div>
@@ -111,7 +115,8 @@
 					<img class="card-img-top" src="./assets/Services/Menu.jpg" />
 					<div class="card-body text-center">
 						<h4 class="card-title">MENU</h4>
-						<p class="card-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy.</p>
+						<br>
+						<p id="about" class="card-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy.</p>
 					</div>
 				</div>
 			</div>
@@ -122,12 +127,12 @@
       <div class="container">
 		<div class="row">
 			<div class="col ml-auto mr-auto text-center">
-				<h1 class="title display-1">&rdquor;&quot;&bdquo;</h1>
+				<h1 class="title display-1">&rdquor;</h1>
 			</div>
 		</div>
 		<div class="row">
 			<div class="col">
-				<div class="card">
+				<div class="quote card">
 					<div class="card-body">
 						<p class="card-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
 						<div class="media">
@@ -141,14 +146,14 @@
 				</div>
 			</div>
 			<div class="col">
-				<div class="card">
+				<div class="quote card">
 					<div class="card-body">
 						<p class="card-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
 						<div class="media">
 							<img class="img-circle mr-3" src="./assets/Feedbacks\Event Planner.png" />
 							<div class="media-body">
 								<h4 class="card-title">JOSHUA C.</h4>
-								<h6 class="card-subtitle mb-2 text-muted">Event Planner</h6>
+								<h6 id="contact" class="card-subtitle mb-2 text-muted">Event Planner</h6>
 							</div>
 						</div>
 					</div>
@@ -165,6 +170,7 @@
               <li>
 				CONTACT
 				<ul class="list-unstyled">
+					<li>&nbsp;</li>
 					<li><a href="#">1732 Rosebud Avenue, Greendale, WI</a></li>
 					<li><a href="#">123 444 5678</a></li>
 					<li><a href="#">loremipsum@gmail.com</a></li>
@@ -173,9 +179,10 @@
               <li>
 				INFO
 				<ul class="list-unstyled">
-					<li><a href="#">About</a></li>
+					<li>&nbsp;</li>
+					<li><a href="#about">About</a></li>
 					<li><a href="#">Menu</a></li>
-					<li><a href="#">Services</a></li>
+					<li><a href="#services">Services</a></li>
 				</ul>
               </li>
             </ul>
